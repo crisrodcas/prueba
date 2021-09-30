@@ -9,3 +9,21 @@ li{
 #elemento3{
     color: cyan;
 }
+
+.parrafoGris{
+    color: gray;
+    background-color: coral;
+}
+
+.textoAzul{
+    color: blue;
+}
+
+.fondoRojo{
+    background-color: crimson;
+}
+
+.imagenPequeña{
+    height: 30px;
+    width: 200px;
+}
