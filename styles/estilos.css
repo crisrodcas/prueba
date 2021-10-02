@@ -35,7 +35,6 @@ ul{
     color: #fff;
 }
 
-
 .mainButton:hover{
     box-shadow: 2px 2px rgb(255, 238, 6);
 }
@@ -47,4 +46,20 @@ ul{
 
 .secButton:hover{
     box-shadow: 2px 2px rgb(144, 100, 173);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.buscar:focus-within{
+    border: 2px solid indigo;
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
 }
