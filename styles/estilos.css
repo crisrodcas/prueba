@@ -1,6 +1,7 @@
 body{
     margin: 0px;
 }
+
 ul{
     list-style: none;
     padding: 0px;
@@ -17,18 +18,33 @@ ul{
     height: 60px;
 }
 
-.mainButton{
-    background-color: coral;
-    color: #fff;
+.button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bolder;
-    box-shadow: 1px 1px rgb(231, 170, 79);
 }
 
-.mainButton:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 2px 2px cornflowerblue;
     transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: coral;
+    color: #fff;
+}
+
+
+.mainButton:hover{
+    box-shadow: 2px 2px rgb(255, 238, 6);
+}
+
+.secButton{
+    background-color: aquamarine;
+    color: #fff;    
+}
+
+.secButton:hover{
+    box-shadow: 2px 2px rgb(144, 100, 173);
 }
