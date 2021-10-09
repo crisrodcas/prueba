@@ -12,6 +12,9 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: coral;
+    border-bottom: 2px solid rgb(94, 25, 0);
+    box-shadow: 20px 25px solid   rgb(0, 255, 0);
 }
 
 .logo{
@@ -53,6 +56,9 @@ ul{
     border: 1px solid gray;
     padding: 3px;
     border-radius: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -62,4 +68,13 @@ ul{
 .buscar > input{
     outline: none;
     border: 0px;
+}
+
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+
+.iconbusqueda:hover{
+    color: rgb(34, 48, 255);
 }
