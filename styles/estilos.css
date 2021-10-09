@@ -79,19 +79,43 @@ ul{
     color: rgb(34, 48, 255);
 }
 
+h1{
+    color: tomato;
+    display: flex;
+    justify-content: center;
+}
+
 .contenedorImagen{
     width: 192px;
     height: 263px;
     display: flex;
+    margin-bottom: 10px;
+}
+
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .contenedorImagen > img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .breedCard{
     margin: 10px;
+    background-color: rgb(0, 82, 18);
+    box-shadow: 5px 5px 5px darksalmon;
+    border-radius: 15px;
+}
+
+.breedTittle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .breedCardContainer{
