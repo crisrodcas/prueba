@@ -75,6 +75,25 @@ ul{
     align-items: center;
 }
 
-.iconbusqueda:hover{
+.iconBusqueda:hover{
     color: rgb(34, 48, 255);
+}
+
+.contenedorImagen{
+    width: 192px;
+    height: 263px;
+    display: flex;
+}
+
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.breedCard{
+    margin: 10px;
+}
+
+.breedCardContainer{
+    display: flex;
 }
